@@ -1,0 +1,24 @@
+.logo-link{
+  text-decoration: none;
+  color: #f1f1f1;
+  font-family: 'EB Garamond', serif;
+  font-size: 36px;
+  &:hover{
+    color: #f42f54;
+  }
+}
+
+.menu{
+  margin-bottom: 0;
+}
+
+.menu-mega-2clmn{
+  max-width: fit-content;
+  min-width: fit-content;
+}
+
+.header__buy-btn{
+  border-radius: 8px !important;
+  width: 100px;
+  margin-right: 30px;
+}

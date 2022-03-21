@@ -4,7 +4,10 @@
   "description": "",
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "chart.js": "^3.7.1",
+    "jquery": "^3.6.0"
+  },
   "devDependencies": {
     "browser-sync": "^2.18.5",
     "del": "^2.2.2",

@@ -1,0 +1,215 @@
+.no-main {
+    padding-top: 90px;
+}
+h2.title {
+    color: #fff;
+}
+.error-section {
+    height: calc(100vh - 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error-section__content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.error-section__content span.error-section__title {
+    font-size: 200px;
+    letter-spacing: 25px;
+}
+.error-section__content span {
+    font-size: 32px;
+}
+.nk-block.nk-block-header.nk-block-sm.my-auto {
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+.overflow-modal {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999 !important;
+    background: rgba(138, 64, 77, 0.5);
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+.overflow-modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+.modal-thank {
+    position: fixed !important;
+    z-index: 9991 !important;
+    top: 10%;
+    width: 600px;
+    background: #fff;
+    left: 50%;
+    min-height: 100px;
+    margin-left: -300px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.modal-thank.active {
+    opacity: 1;
+    visibility: visible;
+}
+.modal-thank-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 35px;
+}
+.modal-thank-desc {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+a.logo-link {
+    position: relative;
+}
+a.logo-link:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    background-image: url(/resource/front/img/logo.gif);
+    width: 40px;
+    height: 40px;
+    top: -2px;
+    z-index: 1;
+    background-size: 100%;
+}
+h6.title.title-xxs.tc-default.status-title.ttu {
+    text-align: center;
+}
+h3.fz-3.fw-3.status-percent {
+    text-align: center;
+}
+.chart-data-s2 li.active {
+    transform: scale(1.15);
+}
+.social-links a {
+    font-size: 32px;
+}
+.nk-block-status__title {
+    font-size: 20px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.progress-point {
+    color: #f42f54;
+}
+.progress-point span {
+    font-size: 9px;
+    color: #97afd5;
+}
+.accordion-content a {
+    color: #f42f54 !important;
+    border-bottom: 1px solid #f42f54;
+    transition: border-bottom-color 0.3s ease-in-out;
+}
+.accordion-content a:hover {
+    border-bottom-color: transparent;
+}
+.text-section__content h1 {
+    font-size: 26px;
+    font-weight: 500;
+}
+.text-section__content h2 {
+    font-size: 22px;
+    font-weight: 500;
+}
+.text-section__content h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.text-section__content p {
+    margin-bottom: 24px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+.text-section__content ul {
+    padding-left: 33px;
+    list-style-type: circle;
+}
+.text-section__content ul li {
+    font-size: 14px;
+    line-height: 1.45;
+    margin-bottom: 4px;
+}
+.text-section__content ul li p {
+    margin-bottom: 4px;
+}
+.text-section__content img {
+    width: 100%;
+}
+.menu > .menu-item > a {
+    padding: 20px 10px;
+}
+.menu-btns > li {
+    padding: 3px;
+}
+@media (max-width: 1200px) {
+    .no-main {
+        padding-top: 120px;
+    }
+}
+@media (max-width: 990px) {
+    .no-main {
+        padding-top: 70px;
+    }
+    .text-section__content h1 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .text-section__content h2 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .text-section__content h3 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .text-section__content p {
+        margin-bottom: 24px;
+        line-height: 1.5;
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) {
+    .error-section__content span.error-section__title {
+        font-size: 80px;
+        letter-spacing: 10px;
+    }
+    .chart-data-s2 li.active {
+        transform: scale(1.07);
+    }
+    .error-section__content span {
+        font-size: 16px;
+    }
+    .nk-block.nk-block-header.nk-block-sm.my-auto {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .modal-thank {
+        width: 98%;
+        margin-left: -49%;
+    }
+}
+@media (max-width: 600px) {
+    .nk-block-status__overflow {
+        overflow: initial;
+        padding: 20px;
+    }
+    .progress-wrap.progress-wrap-point {
+        width: 100%;
+    }
+}
