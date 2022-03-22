@@ -8,4 +8,19 @@
 }
 
 
-
+@keyframes wave {
+  0% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(30px);
+  }
+}
+@keyframes wave-reverse {
+  0% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}

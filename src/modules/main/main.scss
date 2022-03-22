@@ -82,7 +82,7 @@
   @include tablet-768 {
     margin-top: 150px;
   }
-  @include tablet-575{
+  @include tablet-575 {
     margin-top: 50px;
   }
 }
@@ -94,7 +94,7 @@
   @include tablet-768 {
     margin-top: 300px;
   }
-  @include tablet-575{
+  @include tablet-575 {
     margin-top: 100px;
   }
 }
@@ -107,4 +107,112 @@
   width: 80%;
   height: auto;
   border-radius: 50%;
+}
+
+
+.airdrop-imgBox {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 40px 0;
+  @include tablet-575{
+    width: 100%;
+  }
+
+  &__top {
+    img {
+      animation: wave 3s infinite alternate-reverse ease-in-out;
+    }
+
+    .img1 {
+      animation-delay: .2s;
+    }
+
+    .img2 {
+      animation-delay: .4s;
+    }
+
+    .img3 {
+      animation-delay: .6s;
+    }
+
+    .img4 {
+      animation-delay: .8s;
+    }
+
+    .img5 {
+      animation-delay: 1s;
+    }
+
+    .img6 {
+      animation-delay: 1.2s;
+    }
+  }
+
+  &__bottom {
+
+    img {
+      animation: wave-reverse 3s infinite alternate-reverse ease-in-out;
+    }
+
+    .img7 {
+      animation-delay: .2s;
+    }
+
+    .img8 {
+      animation-delay: .4s;
+    }
+
+    .img9 {
+      animation-delay: .6s;
+    }
+
+    .img10 {
+      animation-delay: .8s;
+    }
+
+    .img11 {
+      animation-delay: 1s;
+    }
+
+    .img12 {
+      animation-delay: 1.2s;
+    }
+  }
+
+  .airdrop-zodiacItem {
+    border-radius: 50%;
+    width: 5.5vw;
+    height: auto;
+    box-shadow: -4px 0px 20px -7px #f1f1f1;
+    margin: 0 2px;
+    @include desktop-1200{
+      width: 8vw;
+    }
+    @include tablet-768{
+      width: 10vw;
+    }
+    @include tablet-575{
+      width: 12vw;
+    }
+  }
+}
+
+.airdrop-iconCircle{
+  background-image: linear-gradient(-45deg, #1B2D59FF 0%, #1b2d59 80%, #1b2d59 100%) !important;
+}
+
+.section-partners{
+  padding-bottom: 50px;
+}
+#partners{
+  padding-bottom: 30px;
+}
+
+.owl-item_img{
+  width: 150px !important;
+  height: auto;
+  border-radius: 50%;
+  margin: 15px auto;
+  box-shadow: -4px 0px 20px -7px #f1f1f1;
 }

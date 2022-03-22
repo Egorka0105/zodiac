@@ -1756,31 +1756,31 @@ h6, .h6, .fz-6 {
 }
 
 .nk-df-mask-a, .mask-a:before, .mask-a-bg {
-    background-image: url(../../images/mask-a.svg);
+   /* background-image: url(../../images/mask-a.svg);*/
 }
 
 .ie .nk-df-mask-a, .ie .mask-a:before, .ie .mask-a-bg {
-    background-image: url(../../images/mask-a.png);
+   /* background-image: url(../../images/mask-a.png);*/
 }
 
 .nk-df-mask-a-md, .mask-a-md:before, .mask-a-md-bg {
-    background-image: url(../../images/mask-a-md.svg);
+   /* background-image: url(../../images/mask-a-md.svg);*/
 }
 
 .ie .nk-df-mask-a-md, .ie .mask-a-md:before, .ie .mask-a-md-bg {
-    background-image: url(../../images/mask-a-md.png);
+   /* background-image: url(../../images/mask-a-md.png);*/
 }
 
 .nk-df-mask-a-dark, .mask-a-dark:before, .mask-a-dark-bg {
-    background-image: url(../../images/mask-a-dark.svg);
+   /* background-image: url(../../images/mask-a-dark.svg);*/
 }
 
 .ie .nk-df-mask-a-dark, .ie .mask-a-dark:before, .ie .mask-a-dark-bg {
-    background-image: url(../../images/mask-a-dark.html);
+    /*background-image: url(../../images/mask-a-dark.html);*/
 }
 
 .nk-df-mask-line, .mask-line:before, .mask-line-bg {
-    background-image: url(../../images/mask-line.html);
+    /*background-image: url(../../images/mask-line.html);*/
 }
 
 .ie .nk-df-mask-line, .ie .mask-line:before, .ie .mask-line-bg {
@@ -1788,75 +1788,75 @@ h6, .h6, .fz-6 {
 }
 
 .nk-df-mask-b, .mask-b:before, .mask-b-bg {
-    background-image: url(../../images/mask-b.svg);
+    /*background-image: url(../../images/mask-b.svg);*/
 }
 
 .ie .nk-df-mask-b, .ie .mask-b:before, .ie .mask-b-bg {
-    background-image: url(../../images/mask-b.png);
+    /*background-image: url(../../images/mask-b.png);*/
 }
 
 .nk-df-mask-c, .mask-c:before, .mask-c-bg {
-    background-image: url(../../images/mask-c.svg);
+    /*background-image: url(../../images/mask-c.svg);*/
 }
 
 .ie .nk-df-mask-c, .ie .mask-c:before, .ie .mask-c-bg {
-    background-image: url(../../images/mask-c.png);
+    /*background-image: url(../../images/mask-c.png);*/
 }
 
 .nk-df-mask-c-light, .mask-c-light:before, .mask-c-light-bg {
-    background-image: url(../../images/mask-c-light.svg);
+    /*background-image: url(../../images/mask-c-light.svg);*/
 }
 
 .ie .nk-df-mask-c-light, .ie .mask-c-light:before, .ie .mask-c-light-bg {
-    background-image: url(../../images/mask-c-light.png);
+    /*background-image: url(../../images/mask-c-light.png);*/
 }
 
 .nk-df-mask-c-dark, .mask-c-dark:before, .mask-c-dark-bg {
-    background-image: url(../../images/mask-c-dark.svg);
+    /*background-image: url(../../images/mask-c-dark.svg);*/
 }
 
 .ie .nk-df-mask-c-dark, .ie .mask-c-dark:before, .ie .mask-c-dark-bg {
-    background-image: url(../../images/mask-c-dark.html);
+    /*background-image: url(../../images/mask-c-dark.html);*/
 }
 
 .nk-df-mask-d, .mask-d:before, .mask-d-bg {
-    background-image: url(../../images/mask-d.svg);
+    /*background-image: url(../../images/mask-d.svg);*/
 }
 
 .ie .nk-df-mask-d, .ie .mask-d:before, .ie .mask-d-bg {
-    background-image: url(../../images/mask-d.png);
+    /*background-image: url(../../images/mask-d.png);*/
 }
 
 .nk-df-mask-d2, .mask-d2:before, .mask-d2-bg {
-    background-image: url(../../images/mask-d2.svg);
+    /*background-image: url(../../images/mask-d2.svg);*/
 }
 
 .ie .nk-df-mask-d2, .ie .mask-d2:before, .ie .mask-d2-bg {
-    background-image: url(../../images/mask-d2.html);
+    /*background-image: url(../../images/mask-d2.html);*/
 }
 
 .nk-df-mask-e, .mask-e:before, .mask-e-bg {
-    background-image: url(../../images/mask-e.svg);
+    /*background-image: url(../../images/mask-e.svg);*/
 }
 
 .ie .nk-df-mask-e, .ie .mask-e:before, .ie .mask-e-bg {
-    background-image: url(../../images/mask-e.png);
+    /*background-image: url(../../images/mask-e.png);*/
 }
 
 .nk-df-mask-f, .mask-f:before, .mask-f-bg {
-    background-image: url(../../images/mask-f.svg);
+    /*background-image: url(../../images/mask-f.svg);*/
 }
 
 .ie .nk-df-mask-f, .ie .mask-f:before, .ie .mask-f-bg {
-    background-image: url(../../images/mask-f.png);
+    /*background-image: url(../../images/mask-f.png);*/
 }
 
 .nk-df-mask-f-footer, .mask-f-footer:before, .mask-f-footer-bg {
-    background-image: url(../../images/mask-f-footer.svg);
+    /*background-image: url(../../images/mask-f-footer.svg);*/
 }
 
 .ie .nk-df-mask-f-footer, .ie .mask-f-footer:before, .ie .mask-f-footer-bg {
-    background-image: url(../../images/mask-f-footer.png);
+    /*background-image: url(../../images/mask-f-footer.png);*/
 }
 
 .mask-a:before, .mask-a-md:before, .mask-a-dark:before {
@@ -1990,10 +1990,6 @@ h6, .h6, .fz-6 {
 
 .nk-df-shape-h-sm, .shape-h-sm:after, .shape-h-sm-bg {
     background-image: url(../../images/shape-h-sm.png);
-}
-
-.nk-df-shape-i, .shape-i:after, .shape-i-bg {
-    background-image: url(../../images/shape-i.png);
 }
 
 .nk-df-shape-i-sm, .shape-i-sm:after, .shape-i-sm-bg {
@@ -9650,7 +9646,6 @@ ul.progress-info {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../../images/dot-c-azalea.png) no-repeat;
     background-size: contain;
     background-position: 50% 50%;
 }
