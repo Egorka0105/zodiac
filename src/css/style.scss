@@ -1,0 +1,13 @@
+@import "../css/mixin.scss";
+@import "../css/animations.scss";
+@import "../modules/header/header.scss";
+@import "../modules/main/main.scss";
+@import "../modules/footer/footer.scss";
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}

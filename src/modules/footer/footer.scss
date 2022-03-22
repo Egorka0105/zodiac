@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  padding: 30px 50px;
+  .copyright{
+    color: #f1f1f1;
+  }
+
+  &__telegramLink {
+    border-radius: 50%;
+    transition: 1s;
+
+    &:hover {
+      box-shadow: -4px 0px 20px -3px #f1f1f1;
+      transition: 1s;
+    }
+  }
+}
