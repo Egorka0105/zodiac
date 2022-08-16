@@ -1,29 +1,56 @@
-.logo-link{
+.logo-link {
   text-decoration: none;
   color: #f1f1f1;
   font-family: 'EB Garamond', serif;
   font-size: 36px;
-  &:hover{
+
+  &:hover {
     color: #f42f54;
   }
 }
 
-.menu{
+.menu {
   margin-bottom: 0;
 }
 
-.menu-mega-2clmn{
+.menu-mega-2clmn {
   max-width: fit-content;
   min-width: fit-content;
 }
 
-.header__buy-btn{
+.header__buy-btn {
   border-radius: 8px !important;
-  width: 100px;
   margin-right: 30px;
+  animation: buy 5s ease-in-out infinite;
+  @include tablet-575 {
+    margin-right: 0;
+  }
 }
 
-.language-btn{
+.language-btn {
   font-size: 16px !important;
   font-weight: 700 !important;
 }
+
+.visa, .mastercard {
+  margin-right: 15px;
+}
+
+.header__buy-btnPlus {
+  display: none;
+  margin: 0 10px;
+  @include laptop-991 {
+    display: flex;
+  }
+  @include tablet-575 {
+    flex-wrap: wrap;
+    padding: 6px;
+  }
+  @include mobile-480 {
+    max-width: 50%;
+  }
+  @include mobile-419 {
+    display: none;
+  }
+}
+

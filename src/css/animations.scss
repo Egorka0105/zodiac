@@ -24,3 +24,15 @@
     transform: translateY(-30px);
   }
 }
+
+@keyframes buy {
+  0% {
+    box-shadow: 0 0 5px #fff;
+  }
+  50% {
+    box-shadow: 0 0 20px #fff;
+  }
+  100% {
+    box-shadow: 0 0 5px #fff;
+  }
+}
